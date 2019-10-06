@@ -2,13 +2,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Blood Donation </title>
+	<title>BloodNexus</title>
+	<link rel= "stylesheet" type="text/css" href= "css.css" />
 </head>
-<body>
-	<h1>BloodNexus</h1>
-	<form action="action_page.php" method="post">
+<body bgcolor="black">
+	<div class="box1">
+	<h1 style ="text-align:center; font-size:36px; font-family:ariel;"><font color="#900012">BloodNexus</font></h1><br>
+	<h1 style ="text-align:center; font-size:24px; font-family:ariel;"><font color="#990012">LOGIN </font></h1><br>
+</div>
+	
+
+	<form name="login" action="action_page.php" method="post">
   <div class="imgcontainer">
-    <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    <img src="images.jfif" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
@@ -21,12 +27,9 @@
     <button type="submit">Login</button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
-  </div>
-
-  <div class="container" style="background-color:#f1f1f1">
+    </label><br>
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span class="psw"><font colour="red">Forgot</font> <a href="#">password?</a></span>
   </div>
 </form>
 
