@@ -3,6 +3,8 @@ form {
   border: 3px solid#990012;
 }
 
+}
+
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -32,10 +34,11 @@ button:hover {
   background-color: #f44336;
 }
 .container {
+  border-radius: 25px;
   height: 450px;
   width:450px;
   margin:70px auto;
-  padding: 16px;
+  padding: 20px;
 }
 .myList
 {
@@ -48,6 +51,14 @@ span.psw {
   float: right;
   padding-top: 16px;
 }
+
+header{
+  background-image: url("3.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width: 300px) {
   span.psw {
     display: block;
